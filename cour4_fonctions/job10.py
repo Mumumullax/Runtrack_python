@@ -1,0 +1,8 @@
+def Time_to_text(m) :
+    if m % 1 == 0 :
+        h = int (m / 60)
+        print(h, "heures et", m % 60, "minutes")
+    else :
+        print("Error")
+
+Time_to_text(89)
